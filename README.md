@@ -10,7 +10,7 @@ Materialbox is heavily inspired by [Gruvbox][] and [Material][].
 
 ## Screenshots
 
-Imagur [link][].
+Imgur [link][].
 
   [link]: https://imgur.com/a/VvlpJ
 
