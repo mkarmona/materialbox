@@ -1,6 +1,7 @@
 Materialbox is heavily inspired by [Gruvbox][] and [Material][].
 
   [Material]: https://github.com/cpaulik/emacs-material-theme
+  [Gruvbox]: https://github.com/morhetz/gruvbox
 
 ## Attention
 
