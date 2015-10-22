@@ -1,4 +1,6 @@
-Materialbox is heavily inspired by [Gruvbox][https://github.com/morhetz/gruvbox] and [Material][https://github.com/cpaulik/emacs-material-theme].
+Materialbox is heavily inspired by [Gruvbox][] and [Material][].
+
+  [Material]: https://github.com/cpaulik/emacs-material-theme
 
 ## Attention
 
@@ -48,7 +50,7 @@ Thanks to [Gruvbox][] theme, so check it first.
 
 ## Self-Promotion
 
-If you like materialbox follow first Gruvbox on [GitHub][] and vote for it on [vim.org][]. Then, follow on [GitHub Materialbox][https://github.com/mkarmona/materialbox].
+If you like materialbox follow first Gruvbox on [GitHub][] and vote for it on [vim.org][]. Then, follow on [GitHub Materialbox][].
 
 ## License
 
@@ -57,3 +59,4 @@ If you like materialbox follow first Gruvbox on [GitHub][] and vote for it on [v
 [GitHub]: https://github.com/morhetz/gruvbox
 [vim.org]: http://www.vim.org/scripts/script.php?script_id=4349
 [MIT/X11]: https://en.wikipedia.org/wiki/MIT_License
+[GitHub Materialbox]: https://github.com/mkarmona/materialbox
