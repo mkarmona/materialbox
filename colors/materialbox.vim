@@ -95,8 +95,8 @@ let s:gb.dark3       = ['#546e7a', 241]     " 102-92-84
 let s:gb.dark4       = ['#607d8b', 243]     " 124-111-100
 let s:gb.dark4_256   = ['#607d8b', 243]     " 124-111-100
 
-let s:gb.gray_245    = ['#bdbdbd', 245]     " 146-131-116 dark
-let s:gb.gray_244    = ['#757575', 244]     " 146-131-116 light
+let s:gb.gray_245    = ['#B0BEC5', 245]     " 146-131-116 dark
+let s:gb.gray_244    = ['#455a64', 244]     " 146-131-116 light
 
 let s:gb.light0_hard = ['#eceff1', 230]     " 249-245-215 dark
 let s:gb.light0      = ['#eceff1', 229]     " 253-244-193
@@ -277,7 +277,8 @@ if exists('g:materialbox_hls_cursor')
   let s:hls_cursor = get(s:gb, g:materialbox_hls_cursor)
 endif
 
-let s:number_column = s:bg4
+"let s:number_column = s:bg4
+let s:number_column = s:gray
 let s:sign_column = s:bg1
 
 if exists('g:gitgutter_override_sign_column_highlight') &&
@@ -424,7 +425,7 @@ call s:HL('materialboxAquaSign', s:aqua, s:sign_column, s:invert_signs)
 " General UI: {{{
 
 " Normal text
-call s:HL('Normal', s:fg1, s:bg0)
+call s:HL('Normal', s:fg0, s:bg0)
 
 " Correct background (see issue #7):
 " --- Problem with changing between dark and light on 256 color terminal
