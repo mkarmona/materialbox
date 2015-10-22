@@ -8,6 +8,12 @@ Materialbox is heavily inspired by [Gruvbox][] and [Material][].
 1. Only Graphical Vim! If you need a decent theme with terminal and graphical Vim support please check [Gruvbox][].
 2. ??
 
+## Screenshots
+
+Imagur [link][].
+
+  [link]: https://imgur.com/a/VvlpJ
+
 ### Dark mode
 
 ![Screenshot Dark](https://i.imgur.com/3gaLTFh.png)
