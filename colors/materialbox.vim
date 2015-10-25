@@ -95,8 +95,10 @@ let s:gb.dark3       = ['#546e7a', 241]     " 102-92-84
 let s:gb.dark4       = ['#607d8b', 243]     " 124-111-100
 let s:gb.dark4_256   = ['#607d8b', 243]     " 124-111-100
 
-let s:gb.gray_245    = ['#B0BEC5', 245]     " 146-131-116 dark
-let s:gb.gray_244    = ['#455a64', 244]     " 146-131-116 light
+"let s:gb.gray_245    = ['#B0BEC5', 245]     " 146-131-116 dark
+let s:gb.gray_245    = ['#90A4AE', 245]     " 146-131-116 dark
+"let s:gb.gray_244    = ['#455a64', 244]     " 146-131-116 light
+let s:gb.gray_244    = ['#546E7A', 244]     " 146-131-116 light
 
 let s:gb.light0_hard = ['#eceff1', 230]     " 249-245-215 dark
 let s:gb.light0      = ['#eceff1', 229]     " 253-244-193
@@ -109,27 +111,27 @@ let s:gb.light4_256  = ['#78909c', 246]     " 168-153-132
 
 let s:gb.bright_red     = ['#e57373', 167]     " 251-73-52
 let s:gb.bright_green   = ['#81c784', 142]     " 184-187-38
-let s:gb.bright_yellow  = ['#ffd54f', 214]     " 250-189-47
+let s:gb.bright_yellow  = ['#FFF176', 214]     " 250-189-47
 let s:gb.bright_blue    = ['#64b5f6', 109]     " 131-165-152
 let s:gb.bright_purple  = ['#ba68c8', 175]     " 211-134-155
-let s:gb.bright_aqua    = ['#4db6ac', 108]     " 142-192-124
-let s:gb.bright_orange  = ['#ffb7ad', 208]     " 254-128-25
+let s:gb.bright_aqua    = ['#C5CAE9', 108]     " 142-192-124
+let s:gb.bright_orange  = ['#ffb74d', 208]     " 254-128-25
 
 let s:gb.neutral_red    = ['#e53935', 124]     " 204-36-29
 let s:gb.neutral_green  = ['#43a047', 106]     " 152-151-26
-let s:gb.neutral_yellow = ['#ffb300', 172]     " 215-153-33
+let s:gb.neutral_yellow = ['#FDD835', 172]     " 215-153-33
 let s:gb.neutral_blue   = ['#1e88e5', 66]      " 69-133-136
 let s:gb.neutral_purple = ['#8e24aa', 132]     " 177-98-134
-let s:gb.neutral_aqua   = ['#00897b', 72]      " 104-157-106
+let s:gb.neutral_aqua   = ['#3949AB', 72]      " 104-157-106
 let s:gb.neutral_orange = ['#fb8c00', 166]     " 214-93-14
 
 let s:gb.faded_red      = ['#c62828', 88]      " 157-0-6 light
 let s:gb.faded_green    = ['#2e7d32', 100]     " 121-116-14
-let s:gb.faded_yellow   = ['#ff8f00', 136]     " 181-118-20
+let s:gb.faded_yellow   = ['#F57F17', 136]     " 181-118-20
 let s:gb.faded_blue     = ['#1565c0', 24]      " 7-102-120
 let s:gb.faded_purple   = ['#6a1b9a', 96]      " 143-63-113
-let s:gb.faded_aqua     = ['#00695c', 66]      " 66-123-88
-let s:gb.faded_orange   = ['#ef6c00', 130]     " 175-58-3
+let s:gb.faded_aqua     = ['#303F9F', 66]      " 66-123-88
+let s:gb.faded_orange   = ['#E65100', 130]     " 175-58-3
 
 " }}}
 " Setup Emphasis: {{{
@@ -461,7 +463,8 @@ if version >= 703
   call s:HL('Conceal', s:blue, s:none)
 
   " Line number of CursorLine
-  call s:HL('CursorLineNr', s:yellow, s:bg1)
+  "call s:HL('CursorLineNr', s:yellow, s:bg1)
+  call s:HL('CursorLineNr', s:fg0, s:bg1)
 endif
 
 hi! link NonText materialboxBg2
