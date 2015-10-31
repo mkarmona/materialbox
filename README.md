@@ -6,25 +6,26 @@ Materialbox is heavily inspired by [Gruvbox][] and [Material][].
 ## Attention
 
 1. Only Graphical Vim! If you need a decent theme with terminal and graphical Vim support please check [Gruvbox][].
-2. ??
+2. This theme fallback to gruvbox colour scheme while using the terminal
 
 ## Screenshots
 
-Imgur [link][].
+Imgur [link][]. The font used can be found here: [Iosevka][].
 
-  [link]: https://imgur.com/a/VvlpJ
+  [link]: http://imgur.com/a/oHPTu
+  [Iosevka]: http://be5invis.github.io/Iosevka
 
 ### Dark mode
 
-![Screenshot Dark](https://i.imgur.com/3gaLTFh.png)
+![Screenshot Dark](http://i.imgur.com/RfH7ntY.png)
 
 ### Light mode
 
-![Screenshot Light](https://i.imgur.com/970bASw.png)
+![Screenshot Light](http://i.imgur.com/NHYzpLD.png)
 
 ## Contrast options
 
-Refer [Gruvbox wiki section][] for contrast configuration and other options. One background colour per mode (light / dark).
+Refer [Gruvbox wiki section][] for contrast configuration and other options.
 
    [Gruvbox wiki section]: https://github.com/morhetz/gruvbox/wiki/Configuration#ggruvbox_contrast_dark
 
