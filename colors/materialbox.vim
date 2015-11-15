@@ -127,7 +127,8 @@ let s:gb.neutral_orange = ['#fb8c00', 166]     " 214-93-14
 
 let s:gb.faded_red      = ['#c62828', 88]      " 157-0-6 light
 let s:gb.faded_green    = ['#2e7d32', 100]     " 121-116-14
-let s:gb.faded_yellow   = ['#F57F17', 136]     " 181-118-20
+"let s:gb.faded_yellow   = ['#F57F17', 136]     " 181-118-20
+let s:gb.faded_yellow   = ['#FFA000', 136]     " 181-118-20
 let s:gb.faded_blue     = ['#1565c0', 24]      " 7-102-120
 let s:gb.faded_purple   = ['#6a1b9a', 96]      " 143-63-113
 let s:gb.faded_aqua     = ['#303F9F', 66]      " 66-123-88
